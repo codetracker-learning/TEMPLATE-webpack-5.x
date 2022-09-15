@@ -8,11 +8,11 @@ const path = require('path');
 const dotenv = require('dotenv').config({path: __dirname + '/.env'});
 
 module.exports = {
-  entry: './src/scripts/main.js',
+  entry: './public/main.js',
   plugins: [
     new HtmlWebPackPlugin({
       hash: true,
-      template: "./src/index.html",
+      template: "./public/index.html",
       filename: "./index.html"
     }),
     new MiniCssExtractPlugin({

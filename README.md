@@ -19,10 +19,10 @@ ___
 
 ### Use Template
 #### 1. To get started, click the GREEN "Use this Template" button at the top of the repo
-![Use this Template](./documentation/usetemplate.png)
+<img width="1015" alt="usetemplate" src="https://user-images.githubusercontent.com/29741570/190486165-7ca4abf5-2249-4d0d-9584-b68c82f19ba0.png">
 
 #### 2. Make sure YOUR github account is selected in the dropdown and name your project
-![Create Project](./documentation/createproject.png)
+<img width="844" alt="createproject" src="https://user-images.githubusercontent.com/29741570/190486151-f8a5d3a9-f395-482c-ab51-016362505f57.png">
 
 3. Clone your new repo to your local machine
 4. Go to the **NEXT** section
@@ -34,7 +34,7 @@ ___
 1. To start your application, run `npm start`
 
 ### If you see this, you are set to go!
-![LIT](./documentation/lit-screen.png)
+![lit-screen](https://user-images.githubusercontent.com/29741570/190486162-27e9032d-266f-4962-a85c-fc40c58f33db.png)
 
 **NOTES:** 
 - Changes you make to the project will make the browser reload on save...no more hard refresh unless something goes wrong.
@@ -44,7 +44,7 @@ ___
 ### Console messages
 From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw an error in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however for messages. These need to all be removed before pushing to production unless they contain vital info for the user/developer.
 
-![not acceptable](./documentation/notacceptable.png)
+![notacceptable](https://user-images.githubusercontent.com/29741570/190486163-3dd8640f-5dda-4f73-9436-6020fc9e00c4.png)
 
 ### Including Images with Webpack
 If you have a folder of local images that you want to load into your code things get a little strange with webpack.  Remember the only way webpack knows about assets is if they are imported into your javascript files.  Even our CSS is not added until those files are imported into our javascript files.  Below is some sample code for how to load a local image file into your project
