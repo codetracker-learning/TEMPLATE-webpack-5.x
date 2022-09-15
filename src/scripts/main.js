@@ -1,5 +1,5 @@
 // USE WITH FIREBASE AUTH
-// import checkLoginStatus from './helpers/auth';
+// import ViewDirectorBasedOnUserAuthStatus from './helpers/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
 
@@ -19,7 +19,7 @@ const init = () => {
     .addEventListener('click', () => console.warn('You clicked that button!'));
 
   // USE WITH FIREBASE AUTH
-  // checkLoginStatus();
+  // ViewDirectorBasedOnUserAuthStatus();
 };
 
 init();

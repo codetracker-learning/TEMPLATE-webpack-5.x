@@ -6,4 +6,8 @@ const signIn = () => {
   firebase.auth().signInWithPopup(provider);
 };
 
-export default signIn;
+const signOut = () => {
+  firebase.auth().signOut();
+};
+
+export { signIn, signOut };
