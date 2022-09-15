@@ -2,7 +2,7 @@
   "name": "webpack-5.0-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "public/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode development",
